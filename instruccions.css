@@ -1,1 +1,67 @@
+  /*???????????????????????????????INSTRUCCIONS PER FORMAT DE TEXT*/
 
+  /* Espaciado entre letras */	letter-spacing: 0.1em;
+	/* Tamaño de fuente */			font-size:18px;
+	/* italica, normal, oblicuo*/	font-style: italic; /* italic | normal | obliq*/ 
+	/* Tipografía*/					font-family: "Times New Roman", helvetica, sans-serif;
+	/* Grosor de letra */			font-weight:normal; /*normal 400 | bold 600 | bolder 900*/
+	/* Centrado y justificado */	text-align:right; 	/*justify | center | left | right*/
+	/* Mayúsculas, minúsculas */ 	text-transform: lowercase; /*uppercase | lowercase | capitalize*/
+	/* Subrayado, tachado */		text-decoration: line-through; /* underline, line-through, overline*/
+	/* Separación entre palabras */ word-spacing:0.5em;
+	/* Altura de línea */			line-height: 1.6em;	
+
+/*???????????????????????????????INSTRUCCIONS PER FORMAT DE CAIXES*/
+  /*width
+  height
+
+  padding   (expresión minificada)
+  padding-top
+  padding-right
+  padding-bottom
+  padding-left
+
+  margin (expresión minificada)
+  margin-top
+  margin-right
+  margin-bottom
+  margin-left
+
+  style, color, width
+
+  border (expresión minificada)
+  border-top
+  border-right
+  border-bottom
+  border-left
+
+  border-width (expresión minificada)
+  border-top-width
+  border-right-width
+  border-bottom-width
+  border-left-width
+
+  border-style (expresión minificada)
+  border-top-style
+  border-right-style
+  border-bottom-style
+  border-left-style
+
+  border-color (expresión minificada)
+  border-top-color
+  border-right-color
+  border-bottom-color
+  border-left-color*/
+
+/*???????????????????????????????INSTRUCCIONS PER FORMAT DE BACKGROUND*/
+
+  background-color:;/* transparent | color en formato válido*/
+  background-image:url(''); /*(imágenes separadas por coma)*/
+  background-origin: ; /* padding-box|border-box|content-box */
+  background-position:; /* left top | left bottom | left center | center | x% y% | ... */
+  background-size: ; /* cover | contain */
+  background-repeat:; /* repeat|repeat-x|repeat-y|no-repeat */
+  background-attachment: ; /* scroll | fixed */ 
+  background-clip: ; /* border-box|padding-box|content-box */
+  background-blend-mode:; /* no soportado por IE . Posibles valores normal|multiply|screen|overlay|darken|lighten|color-dodge|saturation|color|luminosity; Como se mezclan los fondos en caso de 2 o más. */
+  background:; /* podemos escribirlas todas en una declaración */
